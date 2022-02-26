@@ -1,0 +1,10 @@
+.skills-header__container{
+    max-width: 40rem;
+}
+
+@media only screen and (max-width: 840px){
+    .skills-header__container{
+        max-width: 100%;
+        margin-bottom: 4rem;
+    }
+}

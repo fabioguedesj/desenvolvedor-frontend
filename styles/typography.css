@@ -1,0 +1,101 @@
+/* TYPOGRAPHY */
+
+.primary-heading {
+  font-size: 7.6rem;
+  color: #eee;
+}
+
+.primary-heading__before {
+  color: #64e0ff;
+  font-size: 2.1rem;
+}
+
+.secondary-heading {
+  margin-bottom: 2rem;
+}
+
+.secondary-heading__before {
+  display: block;
+  color: #624ce2;
+  margin-bottom: -0.5rem;
+}
+
+.secondary-heading__after {
+  display: block;
+  color: #343434;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  line-height: 4rem;
+}
+
+.tertiary-heading {
+  color: #343434;
+  font-size: 2.6rem;
+}
+
+.tertiary-heading--purple {
+  font-size: 2.6rem;
+  color: #624ce2;
+}
+
+.tertiary-heading--white {
+  color: #fff;
+}
+
+.paragraph {
+  line-height: 2.8rem;
+  color: #121212;
+}
+
+.paragraph:not(:first-of-type) {
+  margin-top: 1.5rem;
+}
+
+.paragraph--white {
+  color: #c8c8cc;
+}
+
+@media only screen and (max-width: 840px) {
+  .primary-heading {
+    font-size: 6rem;
+  }
+
+  .primary-heading__before {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .secondary-heading__before {
+    font-size: 2.5rem;
+  }
+
+  .secondary-heading__after {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .primary-heading {
+    font-size: 5rem;
+  }
+
+  .secondary-heading__before {
+    font-size: 2.4rem;
+  }
+
+  .secondary-heading__after {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .primary-heading {
+    font-size: 4rem;
+  }
+
+  .primary-heading__before {
+    font-size: 1.6rem;
+  }
+
+}

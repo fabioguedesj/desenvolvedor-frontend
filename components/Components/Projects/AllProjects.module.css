@@ -1,0 +1,18 @@
+/* .all-projects__card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+} */
+
+.all-projects__card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  gap: 3rem;
+}
+
+@media only screen and (max-width: 440px) {
+  .all-projects__card {
+    grid-template-columns: 1fr;
+  }
+}

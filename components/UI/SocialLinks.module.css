@@ -1,0 +1,16 @@
+.social {
+  transition: all 0.2s;
+}
+
+.social:hover {
+  transform: translateY(-0.4rem);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 840px) {
+  .social{
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+

@@ -1,0 +1,20 @@
+.about-card {
+  border: 1rem double #624ce2;
+  max-width: 55rem;
+  padding: 5rem;
+}
+
+@media only screen and (max-width: 540px) {
+  .about-card {
+    padding: 3rem;
+  }
+}
+
+
+@media only screen and (max-width: 440px) {
+  .about-card {
+    border: none;
+    padding: 0;
+    padding-top: 5rem;
+  }
+}

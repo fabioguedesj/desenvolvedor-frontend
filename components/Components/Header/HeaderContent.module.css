@@ -1,0 +1,22 @@
+.header-content {
+  max-width: 60rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.sub {
+  color: #bbb;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 840px) {
+  .header-content {
+    max-width: 50rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .sub {
+    font-size: 1.6rem;
+  }
+}

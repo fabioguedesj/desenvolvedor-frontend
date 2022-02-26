@@ -1,0 +1,15 @@
+.motivational-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  margin-bottom: 10rem;
+  padding: 0 2rem;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('../../resources/motivational-background.jpg');
+  background-size: cover;
+  background-position: center;
+}

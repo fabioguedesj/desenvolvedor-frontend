@@ -1,0 +1,18 @@
+.header {
+  height: 100vh;
+  margin-bottom: 10rem;
+  /* background-color: #342585; */
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(137, 121, 232, 0.9),
+      rgba(42, 30, 110, 0.9)
+    ),
+    url('../../resources/header-background.jpg');
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

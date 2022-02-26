@@ -1,0 +1,28 @@
+.skills-section {
+  display: flex;
+  margin-bottom: 10rem;
+  padding: 10rem 6rem;
+  background-color: #f3f1fc;
+}
+
+@media only screen and (max-width: 840px) {
+  .skills-section {
+    flex-direction: column;
+  }
+
+  .skills-section {
+    padding: 10rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .skills-section {
+    padding: 10rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .skills-section {
+    padding: 10rem 1rem;
+  }
+}

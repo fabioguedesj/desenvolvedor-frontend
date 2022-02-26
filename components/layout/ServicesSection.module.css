@@ -1,0 +1,33 @@
+.services-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    padding: 0 6rem;
+}
+
+@media only screen and (max-width: 840px) {
+    .services-section {
+      padding: 0 5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .services-section {
+      padding: 0 4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 440px) {
+    .services-section {
+      padding: 0 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 350px) {
+    .services-section {
+      padding: 0 1rem;
+    }
+  }

@@ -1,0 +1,20 @@
+.container {
+  width: 28rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 440px) {
+  .container {
+    width: 22rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container {
+    width: 18rem;
+  }
+}

@@ -1,0 +1,30 @@
+.guarantee-card {
+  border: 1rem double #8979e8;
+  width: fit-content;
+  padding: 5rem 10rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.paragraph-container {
+  max-width: 60rem;
+}
+
+@media only screen and (max-width: 840px) {
+  .guarantee-card {
+    padding: 4rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .guarantee-card {
+    padding: 3rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .guarantee-card {
+    border: none;
+    padding: 0;
+  }
+}
