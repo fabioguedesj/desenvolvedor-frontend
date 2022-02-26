@@ -1,5 +1,5 @@
 import AboutCard from '../Components/About/AboutCard';
-import image from '../../resources/desenvolvedor-frontend.jpg';
+import image from '../../resources/desenvolvedor-frontend.png';
 
 import Image from 'next/image';
 
@@ -12,7 +12,6 @@ const AboutSection = () => {
         <Image
           alt='desenvolvedor frontend'
           src={image}
-          className={classes.image}
         />
       </div>
       <AboutCard />

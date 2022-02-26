@@ -25,6 +25,8 @@ const HomePage = () => {
   return (
     <Fragment>
       <Head>
+        <html lang='pt-br' />
+        <meta name='theme-color' content='#ffffff' />
         {/* Primary Meta Tags */}
         <title>{metaData.title}</title>
         <meta name='title' content={metaData.title} />

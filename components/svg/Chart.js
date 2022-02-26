@@ -5,8 +5,8 @@ const Chart = () => {
       id='Layer_1'
       data-name='Layer 1'
       viewBox='0 0 24 24'
-      width='24'
-      height='24'
+      width='24px'
+      height='24px'
       fill="#624CE2"
       >
       <path d='M23,22H5a3,3,0,0,1-3-3V1A1,1,0,0,0,0,1V19a5.006,5.006,0,0,0,5,5H23a1,1,0,0,0,0-2Z' />

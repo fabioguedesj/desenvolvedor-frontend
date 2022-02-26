@@ -4,8 +4,8 @@ const Video = () => {
       xmlns='http://www.w3.org/2000/svg'
       id='Outline'
       viewBox='0 0 24 24'
-      width='24'
-      height='24'
+      width='24px'
+      height='24px'
       fill="#624CE2"
       >
       <path

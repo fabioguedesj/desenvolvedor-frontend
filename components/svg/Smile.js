@@ -5,8 +5,8 @@ const Smile = () => {
       id='Layer_1'
       data-name='Layer 1'
       viewBox='0 0 24 24'
-      width='24'
-      height='24'
+      width='24px'
+      height='24px'
       fill="#624CE2"
       >
       <path
