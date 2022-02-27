@@ -6,10 +6,11 @@ import classes from './AboutCard.module.css';
 const AboutCard = () => {
   return (
     <div className={classes['about-card']}>
-      <Typography textBefore='Saiba mais' textAfter='Sobre mim'/>
+      <Typography textBefore='Saiba mais' textAfter='Sobre mim' />
       <p className='paragraph'>
-        Crio páginas incríveis que proporcinam experiências únicas para todos os
-        visitantes do site, sempre focando em acessibilidade e perfomance.
+        Como desenvolvedor frontend crio páginas incríveis que proporcinam
+        experiências únicas para os visitantes do site, sempre focando em
+        acessibilidade e perfomance.
       </p>
       <p className='paragraph'>
         Atualmente trabalho como freelancer para empreendedores que desejam dar

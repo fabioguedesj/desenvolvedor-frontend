@@ -11,7 +11,7 @@ const SkillsHeader = () => {
       />
       <p className='paragraph'>
         Além de preparar um café incrível e levemente adoçado, confira algumas
-        das minhas principais habilidades com frontend.
+        das minhas principais habilidades como desenvolvedor frontend.
       </p>
     </div>
   );

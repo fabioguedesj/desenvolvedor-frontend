@@ -18,14 +18,13 @@ const metaData = {
   description:
     'Olá, meu nome é Fábio Guedes e sou um Desenvolvedor Frontend. Clique para conhecer meu trabalho e também alguns serviços que ofereço',
   url: 'https://fabioguedes.com/',
-  image: 'http://localhost:3000/resources/desenvolvedor-frontend-banner.jpg',
+  image: '/desenvolvedor-frontend-banner.jpg',
 };
 
 const HomePage = () => {
   return (
     <Fragment>
       <Head>
-        <html lang='pt-br' />
         <meta name='theme-color' content='#ffffff' />
         {/* Primary Meta Tags */}
         <title>{metaData.title}</title>
